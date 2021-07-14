@@ -15,7 +15,7 @@ for i in range (num):
       temp = float(data[1]) #extract temperature from the list
 
 if temp >=38:
-      print("The students with fever are", data)
+      print("Index number of people with fever", data[0])
             #process: who has fever,how many has fever
 
 if temp >= 38.0 :
@@ -24,7 +24,10 @@ if temp >= 38.0 :
 
 #process: find average temperature
 average=temp/num
-print("The average temperature is", average)
+print("The average temperature is", round(average,3))
+
+
+
 
 
 
